@@ -1,12 +1,16 @@
-SHELL = /bin/sh
+SHELL = /bin/bash
 
 .SUFFIXES:
 .SUFFIXES: .sh
 
 .PHONY: setup
 setup:
-	sh scripts/setup.sh
+	bash scripts/setup.sh
 
 .PHONY: build
 build: setup
-	sh scripts/build.sh
+	bash scripts/build.sh
+
+.PHONY: publish.npm
+publish.npm: build
+	bash scripts/publish.npm.sh
