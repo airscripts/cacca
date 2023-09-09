@@ -1,0 +1,20 @@
+[project]
+name = "cacca"
+version = "0.1.0"
+description = "A cumulative hierarchy framework, easy as shit."
+authors = [
+    {name = "Airscript", email = "francesco@airscript.it"},
+]
+requires-python = ">=3.11,<3.13"
+readme = "README.md"
+license = {text = "MIT"}
+dependencies = []
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pyinstaller>=5.13.2",
+]
