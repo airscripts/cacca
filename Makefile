@@ -8,5 +8,5 @@ setup:
 	sh scripts/setup.sh
 
 .PHONY: build
-build: 
+build: setup
 	sh scripts/build.sh
