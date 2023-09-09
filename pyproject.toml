@@ -1,6 +1,6 @@
 [project]
 name = "cacca"
-version = "0.1.0"
+version = "0.1.1"
 description = "A cumulative hierarchy framework, easy as shit."
 authors = [
     {name = "Airscript", email = "francesco@airscript.it"},
@@ -18,3 +18,6 @@ build-backend = "pdm.backend"
 dev = [
     "pyinstaller>=5.13.2",
 ]
+
+[project.scripts]
+cacca = "cacca.cli:main"

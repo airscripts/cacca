@@ -1,1 +1,2 @@
-print("💩")
+def main():
+    print("💩")

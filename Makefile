@@ -14,3 +14,7 @@ build: setup
 .PHONY: publish.npm
 publish.npm: build
 	bash scripts/publish.npm.sh
+
+.PHONY: publish.pypi
+publish.pypi: build
+	bash scripts/publish.pypi.sh
