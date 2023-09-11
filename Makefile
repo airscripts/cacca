@@ -18,3 +18,11 @@ publish.npm: build
 .PHONY: publish.pypi
 publish.pypi: build
 	bash scripts/publish.pypi.sh
+
+.PHONY: code.install
+code.install:
+	bash scripts/code.install.sh
+
+.PHONY: code.uninstall
+code.uninstall:
+	bash scripts/code.uninstall.sh
