@@ -27,7 +27,6 @@ def interact(layer: Layer, cargo: Cargo) -> Cargo:
     if not anchor:
         return res
 
-    print(cargo)
     anchor = action(cargo.get(ACTION_KEY))
     res[ACTION_KEY] = anchor
 
