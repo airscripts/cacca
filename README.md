@@ -18,7 +18,7 @@ git clone https://github.com/airscripts/cacca.git
 ```
 
 ## Usage
-This section is under construction but here you go with an "Hello, Toilet!" workflow:
+This section is under construction but here you go with an `"Hello, Toilet!"` workflow:
 ```python
 from cacca.lib import Cacca
 
