@@ -11,6 +11,10 @@ setup:
 build: setup
 	bash scripts/build.sh
 
+.PHONY: tests
+tests: setup
+	bash scripts/tests.sh
+
 .PHONY: publish.npm
 publish.npm: build
 	bash scripts/publish.npm.sh

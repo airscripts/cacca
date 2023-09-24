@@ -1,20 +1,20 @@
-from typing import Any, Generic, List, NewType, NotRequired, Optional, TypedDict, final
+from typing import Any, Generic, List, NewType, NotRequired, TypedDict, final
 
 from cacca.types import Action, Guard, Hook, T
 
 
 @final
 class Sublayer(TypedDict, Generic[T]):
-    action: Action[Optional[T]]
-    hook: NotRequired[Hook[Optional[T]]]
-    guard: NotRequired[Guard[Optional[T]]]
+    action: Action[T]
+    hook: NotRequired[Hook[T]]
+    guard: NotRequired[Guard[T]]
 
 
 @final
 class Subcargo(TypedDict, Generic[T]):
-    hook: NotRequired[Optional[T]]
-    guard: NotRequired[Optional[T]]
-    action: NotRequired[Optional[T]]
+    hook: NotRequired[T]
+    guard: NotRequired[T]
+    action: NotRequired[T]
 
 
 Cargo = NewType("Cargo", Subcargo[Any])

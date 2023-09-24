@@ -5,8 +5,12 @@ from cacca.types import Cargo, Layer, Layers
 
 
 class Cacca:
-    __stash: Layers
+    __bucket: Layers
     __layers: Layers
+
+    @property
+    def bucket(self) -> Layers:
+        return self.__bucket
 
     @property
     def layers(self) -> Layers:
@@ -17,7 +21,7 @@ class Cacca:
         self.__layers = value
 
     def __init__(self) -> None:
-        self.__stash = Layers([])
+        self.__bucket = Layers([])
         self.__layers = Layers([])
 
     def insert(self, value: Layer, index: Optional[int] = None) -> None:
@@ -28,15 +32,15 @@ class Cacca:
         return self.__layers.pop(index)
 
     def stash(self) -> None:
-        self.__stash = self.__layers
+        self.__bucket = self.__layers
         self.__layers = Layers([])
 
     def unstash(self) -> None:
-        self.__layers = self.__stash
-        self.__stash = Layers([])
+        self.__layers = self.__bucket
+        self.__bucket = Layers([])
 
     def clear(self) -> None:
-        self.__stash = Layers([])
+        self.__bucket = Layers([])
         self.__layers = Layers([])
 
     def run(self, index: int, cargo: Cargo) -> Cargo:
