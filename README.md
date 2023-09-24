@@ -21,7 +21,7 @@ git clone https://github.com/airscripts/cacca.git
 404
 
 ## Resources
-- [Flaticon]: https://flaticon.com
+- [Flaticon](https://flaticon.com): Collection of assets.
 
 ## Contributing
 Contributions and suggestions about how to improve this project are welcome!
