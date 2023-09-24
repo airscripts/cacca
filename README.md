@@ -18,7 +18,15 @@ git clone https://github.com/airscripts/cacca.git
 ```
 
 ## Usage
-404
+This section is under construction but here you go with an "Hello, Toilet!" workflow:
+```python
+from cacca.lib import Cacca
+
+cacca = Cacca()
+
+cacca.insert({"action": print})
+cacca.run(0, {"action": "Hello, Toilet!"})
+```
 
 ## Resources
 - [Flaticon](https://flaticon.com): Collection of assets.
