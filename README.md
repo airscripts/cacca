@@ -1,5 +1,11 @@
-# Cacca
-A cumulative hierarchy framework, easy as shit.
+<h1 align="center">
+  <img src="https://raw.githubusercontent.com/airscripts/cacca/main/assets/images/logo.png" width="64" alt="Logo"/><br/>
+  cacca
+</h1>
+
+<p align="center">
+  A workflow framework, easy as shit.
+</p>
 
 ## Contents
 - [Installation](#installation)
