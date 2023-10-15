@@ -1,6 +1,6 @@
 from typing import Any, Generic, List, NewType, NotRequired, TypedDict, final
 
-from cacca.types import Action, Guard, Hook, T
+from cacca.types.generics import Action, Guard, Hook, T
 
 
 @final
