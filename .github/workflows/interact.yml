@@ -1,4 +1,4 @@
-name: interaction
+name: interact
 
 on:
   issues:
@@ -9,7 +9,7 @@ on:
     types: [opened]
 
 jobs:
-  interaction-checker:
+  interact:
     runs-on: ubuntu-latest
 
     steps:
