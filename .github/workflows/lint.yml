@@ -1,11 +1,5 @@
 name: lint
-
-on:
-  push:
-    branches: [main]
-
-  pull_request:
-    types: [opened]
+on: [push]
 
 jobs:
   lint:
