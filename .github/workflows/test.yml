@@ -1,0 +1,29 @@
+name: lint
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        python-version: ["3.11"]
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setting Up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v3
+
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install Dependencies
+
+        run: |
+          python -m pip install --upgrade pip
+          pip install pdm
+          pdm install
+
+      - name: Testing Code With pytest
+        run: pdm run pytest
