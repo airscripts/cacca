@@ -46,7 +46,7 @@ export default defineConfig({
         items: [
           { text: 'Getting Started', link: '/getting-started' },
           { text: 'Installation', link: '/installation' },
-          { text: 'Hello World', link: '/hello-world' }
+          { text: 'Hello Toilet', link: '/hello-toilet' }
         ]
       }
     ],
