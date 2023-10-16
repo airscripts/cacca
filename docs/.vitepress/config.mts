@@ -7,6 +7,7 @@ export default defineConfig({
 
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: 'https://raw.githubusercontent.com/airscripts/cacca/main/assets/images/logo.png' }],
+    ['meta', { name: 'theme-color', content: '#c8866a' }],
   ],
 
   themeConfig: {
