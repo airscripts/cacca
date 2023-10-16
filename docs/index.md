@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: Documentation
-      link: /docs
+      link: /getting-started
 
     - theme: alt
       text: View On GitHub
