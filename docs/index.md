@@ -1,5 +1,4 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 title: Cacca
 titleTemplate: Workflow Framework
@@ -22,31 +21,17 @@ hero:
     src: https://raw.githubusercontent.com/airscripts/cacca/main/assets/images/logo.png
     alt: Cacca
 
+
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: 💡
+    title: Intuitive APIs
+    details: Write your workflows with just a few simple commands!
+
+  - icon: ⚡️
+    title: Wonderful DevEx
+    details: With a low overhead but powerful syntax, you'll have fun writing your workflows.
+
+  - icon: 🛠️
+    title: Limitless
+    details: With the power of Python, you can transform the framework whenever you need.
 ---
-<style>
-:root {
-  --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #fcd9c2 30%, #261b00);
-  --vp-home-hero-image-background-image: linear-gradient(-45deg, #fcd9c2 50%, #261b00 50%);
-  --vp-home-hero-image-filter: blur(40px);
-}
-
-@media (min-width: 640px) {
-  :root {
-    --vp-home-hero-image-filter: blur(56px);
-  }
-}
-
-@media (min-width: 960px) {
-  :root {
-    --vp-home-hero-image-filter: blur(72px);
-  }
-}
-</style>
