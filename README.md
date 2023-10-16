@@ -20,7 +20,7 @@ Follow the steps below to make use of Cacca.
 
 Clone this repository:
 ```bash
-git clone https://github.com/airscripts/cacca.git
+pip install cacca
 ```
 
 ## Usage
