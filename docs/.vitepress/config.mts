@@ -30,18 +30,23 @@ export default defineConfig({
       src: LOGO,
     },
 
+    editLink: {
+      pattern: 'https://github.com/airscripts/cacca/edit/main/docs/:path',
+      text: 'Suggest changes to this page',
+    },
+
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Documentation', link: '/docs' }
+      { text: 'Documentation', link: '/getting-started' }
     ],
 
     sidebar: [
       {
-        text: 'Introduction',
+        text: 'Guide',
         items: [
           { text: 'Getting Started', link: '/getting-started' },
           { text: 'Installation', link: '/installation' },
-          { text: 'Scripting', link: '/scripting' }
+          { text: 'Hello World', link: '/hello-world' }
         ]
       }
     ],
