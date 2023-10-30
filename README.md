@@ -35,6 +35,7 @@ cacca.run(0, {"action": "Hello, Toilet!"})
 ```
 
 ## Resources
+- [Documentation](https://cacca.airscript.it): Project documentation.
 - [Flaticon](https://flaticon.com): Collection of assets.
 
 ## Contributing

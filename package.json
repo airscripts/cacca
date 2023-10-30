@@ -1,7 +1,7 @@
 {
   "name": "cacca",
-  "version": "0.1.0",
-  "description": "A cumulative hierarchy framework, easy as shit.",
+  "version": "1.0.0",
+  "description": "A workflow framework, easy as shit.",
   "main": "index.js",
   "directories": {
     "test": "tests"
@@ -17,7 +17,7 @@
     "url": "git+https://github.com/airscripts/cacca.git"
   },
   "bin": {
-    "cacca": "./dist/cacca"
+    "cacca": "./dist/node"
   },
   "keywords": [
     "cacca",
